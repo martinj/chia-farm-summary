@@ -1,0 +1,25 @@
+{
+  "name": "chia-farm-summary",
+  "version": "0.0.1",
+  "description": "chia farm summary output parser",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinj/chia-farm-summary.git"
+  },
+  "keywords": [
+    "chia"
+  ],
+  "author": "Martin Jonsson <martin.jonsson@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@aptoma/eslint-config": "^7.0.1",
+    "eslint": "^7.26.0",
+    "expect": "^26.6.2",
+    "mocha": "^8.4.0"
+  }
+}
