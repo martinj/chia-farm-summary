@@ -39,7 +39,7 @@ function parseOutput(output) {
 		const match = regexp.exec(output);
 		if (match) {
 			for (const [idx, key] of keys.entries()) {
-				const value = match[idx + 1];
+				const value = match[idx + 1] ? match[idx + 1].trim() : undefined;
 				if (key && value !== undefined) {
 					acc[key] = /^\d+(\.\d+)?$/.test(value) ? Number(value) : value;
 				}
