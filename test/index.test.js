@@ -10,7 +10,7 @@ describe('chia-farm-summary', () => {
 			Connection error. Check if harvester is running at 8560
 			Connection error. Check if full node is running at 8555
 			Connection error. Check if farmer is running at 8559
-			Farming status: Not available
+			Farming status: Not available\r\n
 			Total chia farmed: Unknown
 			User transaction fees: Unknown
 			Block rewards: Unknown
